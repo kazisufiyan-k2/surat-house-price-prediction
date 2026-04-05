@@ -1,0 +1,301 @@
+HouseID,Area,Locality,BHK,TotalSqFt,Floor,AgeOfProperty,Parking,NearMetro,SalePrice
+1,Adajan,Adajan Gam,3,1721,1,14,Yes,No,8518950
+2,Adajan,Adajan Gam,1,1118,14,14,No,Yes,5534100
+3,Pal,Pal Gam,1,1492,7,1,No,Yes,9399600
+4,Vesu,Vesu Main Road,1,1340,9,1,No,No,8140500
+5,Udhna,Udhna Road,3,1954,9,9,Yes,No,7034400
+6,Piplod,Piplod Area,3,1290,11,15,No,Yes,7546500
+7,Piplod,Piplod Area,3,2302,14,5,No,No,13466700
+8,Pal,Pal Gam,3,1568,11,15,Yes,No,9878400
+9,CityLight,City Light Road,3,1520,6,10,Yes,No,9439200
+10,Dindoli,Dindoli Area,1,2235,3,6,Yes,No,7543125
+11,Katargam,Katargam Road,4,1426,13,0,No,Yes,5454450
+12,Piplod,Piplod Area,1,2322,2,10,No,No,13583700
+13,Adajan,LP Savani Road,1,710,1,5,No,No,3514500
+14,Katargam,Katargam Road,2,680,8,13,No,Yes,2601000
+15,Pal,Pal RTO,2,648,7,6,No,Yes,4082399
+16,Adajan,Adajan Gam,2,1227,2,12,No,No,6073650
+17,Adajan,LP Savani Road,4,1893,11,7,No,No,9370350
+18,Piplod,Piplod Area,2,2004,13,13,No,No,11723400
+19,Dindoli,Dindoli Area,3,2186,8,2,No,Yes,7377750
+20,Piplod,Piplod Area,2,1126,15,12,No,Yes,6587100
+21,Varachha,Varachha Road,2,634,1,12,Yes,Yes,2710350
+22,Dindoli,Dindoli Area,3,2475,11,1,No,Yes,8353125
+23,Vesu,Vesu Main Road,3,1108,10,2,Yes,Yes,6731100
+24,Varachha,Varachha Road,3,1409,14,9,No,Yes,6023475
+25,Vesu,Canal Road,3,2393,7,9,Yes,Yes,14537475
+26,Athwa,Athwa Lines,4,1211,7,5,No,No,7901775
+27,Piplod,Piplod Area,3,1761,3,15,Yes,Yes,10301850
+28,CityLight,City Light Road,3,2355,6,14,Yes,No,14624549
+29,Athwa,Athwa Lines,4,2445,3,6,No,Yes,15953625
+30,Pal,Pal Gam,4,2464,8,12,Yes,Yes,15523199
+31,Adajan,LP Savani Road,4,931,3,15,No,Yes,4608450
+32,Varachha,Varachha Road,4,1458,12,14,Yes,Yes,6232950
+33,Katargam,Katargam Road,4,1824,14,2,Yes,Yes,6976800
+34,Dindoli,Dindoli Area,3,1531,8,0,Yes,Yes,5167125
+35,Pal,Pal Gam,2,1732,9,15,Yes,Yes,10911600
+36,CityLight,City Light Road,4,2210,12,4,No,No,13724099
+37,CityLight,City Light Road,1,1033,5,13,No,Yes,6414929
+38,Piplod,Piplod Area,3,846,12,1,No,Yes,4949100
+39,Piplod,Piplod Area,2,1056,7,0,Yes,No,6177600
+40,Udhna,Udhna Road,4,1163,9,12,Yes,No,4186800
+41,Pal,Pal RTO,4,834,9,3,No,No,5254200
+42,CityLight,City Light Road,1,2011,6,9,Yes,Yes,12488309
+43,Piplod,Piplod Area,1,1520,1,13,Yes,Yes,8892000
+44,Dindoli,Dindoli Area,1,2283,13,8,No,No,7705125
+45,Dindoli,Dindoli Area,4,1138,7,11,Yes,No,3840750
+46,Varachha,Varachha Road,3,2205,2,12,Yes,No,9426375
+47,Katargam,Katargam Road,3,2187,7,0,No,Yes,8365275
+48,Athwa,Athwa Lines,3,746,7,10,No,No,4867650
+49,Athwa,Athwa Lines,4,2565,12,6,No,No,16736625
+50,Udhna,Udhna Road,1,2131,8,10,No,Yes,7671600
+51,Udhna,Udhna Road,3,1321,13,11,Yes,No,4755600
+52,Piplod,Piplod Area,2,2375,3,5,No,No,13893750
+53,Athwa,Athwa Lines,4,2425,9,8,No,No,15823125
+54,Katargam,Katargam Road,1,2521,3,6,No,No,9642825
+55,Varachha,Varachha Road,3,1117,13,0,Yes,No,4775175
+56,Adajan,LP Savani Road,4,1402,7,11,Yes,Yes,6939900
+57,Adajan,Adajan Gam,2,2469,5,4,Yes,Yes,12221550
+58,Piplod,Piplod Area,3,1722,5,3,Yes,No,10073700
+59,CityLight,City Light Road,1,1123,11,7,Yes,No,6973829
+60,Piplod,Piplod Area,1,1700,13,14,No,Yes,9945000
+61,Pal,Pal Gam,3,1245,15,3,No,No,7843499
+62,Udhna,Udhna Road,3,2481,5,2,Yes,No,8931600
+63,CityLight,City Light Road,1,2094,1,12,Yes,No,13003739
+64,Vesu,Vesu Main Road,3,1886,3,6,No,Yes,11457450
+65,Adajan,Adajan Gam,4,1219,10,8,Yes,No,6034050
+66,Vesu,Canal Road,1,1634,11,15,No,Yes,9926550
+67,Udhna,Udhna Road,3,1759,5,15,No,No,6332400
+68,CityLight,City Light Road,4,1816,15,0,No,No,11277360
+69,Pal,Pal RTO,4,1810,13,2,Yes,Yes,11403000
+70,Adajan,LP Savani Road,3,2040,11,7,No,Yes,10098000
+71,CityLight,City Light Road,1,2147,2,8,Yes,No,13332869
+72,Vesu,Canal Road,3,988,6,14,Yes,Yes,6002100
+73,Pal,Pal RTO,3,763,12,15,No,No,4806900
+74,Katargam,Katargam Road,1,743,15,7,No,No,2841975
+75,Varachha,Varachha Road,1,686,12,8,No,Yes,2932650
+76,Piplod,Piplod Area,2,1130,10,2,Yes,Yes,6610500
+77,Athwa,Athwa Lines,1,743,10,4,No,Yes,4848075
+78,Athwa,Athwa Lines,3,1121,13,15,Yes,No,7314525
+79,Athwa,Athwa Lines,1,1863,10,0,No,Yes,12156075
+80,Katargam,Katargam Road,4,2210,5,10,Yes,Yes,8453250
+81,Pal,Pal Gam,4,1520,7,7,No,No,9576000
+82,Adajan,LP Savani Road,2,1313,13,7,Yes,Yes,6499350
+83,Dindoli,Dindoli Area,4,1155,13,15,No,No,3898125
+84,Athwa,Athwa Lines,4,1445,7,12,No,No,9428625
+85,Vesu,Canal Road,3,2090,10,2,No,No,12696750
+86,Athwa,Athwa Lines,3,1496,2,14,Yes,No,9761400
+87,Athwa,Athwa Lines,4,1740,5,0,No,No,11353500
+88,CityLight,City Light Road,2,1358,9,8,No,No,8433180
+89,Udhna,Udhna Road,1,1934,12,3,Yes,No,6962400
+90,Udhna,Udhna Road,4,2188,6,0,No,No,7876800
+91,Vesu,Canal Road,4,1338,8,9,Yes,Yes,8128350
+92,Athwa,Athwa Lines,2,1796,3,8,Yes,No,11718900
+93,Adajan,Adajan Gam,2,2451,10,9,Yes,No,12132450
+94,Katargam,Katargam Road,4,2506,15,5,No,Yes,9585450
+95,CityLight,City Light Road,3,1032,1,6,No,Yes,6408719
+96,Athwa,Athwa Lines,4,1205,4,4,Yes,No,7862625
+97,Adajan,Adajan Gam,1,699,6,1,No,Yes,3460050
+98,Athwa,Athwa Lines,1,1662,3,11,No,Yes,10844550
+99,Adajan,Adajan Gam,4,1237,6,15,No,No,6123150
+100,Piplod,Piplod Area,4,973,1,5,Yes,Yes,5692050
+101,Udhna,Udhna Road,1,1639,12,12,No,Yes,5900400
+102,Varachha,Varachha Road,4,1987,5,15,No,Yes,8494425
+103,Dindoli,Dindoli Area,3,2136,8,13,Yes,Yes,7209000
+104,Varachha,Varachha Road,1,2532,5,9,No,No,10824300
+105,Katargam,Katargam Road,1,1990,3,1,Yes,Yes,7611750
+106,Athwa,Athwa Lines,4,1462,5,12,Yes,Yes,9539550
+107,Dindoli,Dindoli Area,2,1387,1,7,Yes,Yes,4681125
+108,Athwa,Athwa Lines,4,1107,6,11,Yes,Yes,7223175
+109,Piplod,Piplod Area,1,950,14,8,Yes,Yes,5557500
+110,Katargam,Katargam Road,1,1653,2,13,No,No,6322725
+111,Piplod,Piplod Area,3,1276,8,6,Yes,Yes,7464600
+112,Piplod,Piplod Area,4,1166,4,5,Yes,Yes,6821100
+113,Katargam,Katargam Road,2,2338,15,6,No,Yes,8942850
+114,Pal,Pal Gam,2,1990,15,8,No,No,12537000
+115,Adajan,LP Savani Road,4,1488,11,11,No,Yes,7365600
+116,Vesu,Vesu Main Road,2,1561,5,12,Yes,Yes,9483075
+117,CityLight,City Light Road,4,2173,1,6,No,No,13494329
+118,Katargam,Katargam Road,1,865,5,8,Yes,No,3308625
+119,Vesu,Canal Road,4,2259,1,7,Yes,No,13723425
+120,Adajan,LP Savani Road,3,1767,12,14,No,No,8746650
+121,Pal,Pal RTO,4,1994,7,6,Yes,No,12562200
+122,Dindoli,Dindoli Area,2,2197,6,15,Yes,No,7414875
+123,Dindoli,Dindoli Area,1,736,2,4,No,Yes,2484000
+124,Udhna,Udhna Road,1,1971,14,5,Yes,Yes,7095600
+125,Varachha,Varachha Road,2,2385,6,0,Yes,Yes,10195875
+126,Varachha,Varachha Road,1,1195,7,8,Yes,No,5108625
+127,Piplod,Piplod Area,3,1630,13,14,Yes,No,9535500
+128,Piplod,Piplod Area,1,967,11,9,Yes,No,5656950
+129,CityLight,City Light Road,4,2536,8,14,Yes,No,15748559
+130,Vesu,Vesu Main Road,3,1618,8,13,No,No,9829350
+131,Udhna,Udhna Road,4,1024,6,5,No,Yes,3686400
+132,Dindoli,Dindoli Area,4,1522,6,5,Yes,No,5136750
+133,Udhna,Udhna Road,1,2083,12,10,Yes,Yes,7498800
+134,Katargam,Katargam Road,4,2579,7,12,No,Yes,9864675
+135,Dindoli,Dindoli Area,3,1732,14,6,No,No,5845500
+136,Pal,Pal RTO,4,2043,10,1,No,Yes,12870900
+137,Varachha,Varachha Road,3,1893,4,13,No,Yes,8092575
+138,Udhna,Udhna Road,1,1111,4,13,No,Yes,3999600
+139,Udhna,Udhna Road,3,1327,11,10,Yes,No,4777200
+140,Pal,Pal RTO,4,1278,11,3,Yes,Yes,8051399
+141,Athwa,Athwa Lines,4,681,13,11,Yes,No,4443525
+142,CityLight,City Light Road,4,1444,4,0,Yes,No,8967240
+143,Vesu,Vesu Main Road,2,2011,5,4,No,No,12216825
+144,Katargam,Katargam Road,2,1230,7,4,No,Yes,4704750
+145,Udhna,Udhna Road,2,2560,14,15,No,Yes,9216000
+146,Varachha,Varachha Road,1,1103,15,10,No,No,4715325
+147,Vesu,Canal Road,4,1471,2,2,Yes,Yes,8936325
+148,Udhna,Udhna Road,3,2165,6,14,Yes,No,7794000
+149,Vesu,Canal Road,1,1497,7,1,No,No,9094275
+150,CityLight,City Light Road,4,670,8,6,Yes,No,4160699
+151,Udhna,Udhna Road,1,1540,5,13,Yes,No,5544000
+152,Adajan,Adajan Gam,4,1211,8,7,No,No,5994450
+153,CityLight,City Light Road,1,2520,4,5,No,Yes,15649199
+154,Katargam,Katargam Road,3,2387,15,13,Yes,Yes,9130275
+155,CityLight,City Light Road,2,749,15,12,Yes,No,4651290
+156,Piplod,Piplod Area,4,1328,11,12,No,No,7768800
+157,Dindoli,Dindoli Area,2,704,4,12,Yes,Yes,2376000
+158,Piplod,Piplod Area,3,1358,14,8,Yes,Yes,7944300
+159,CityLight,City Light Road,1,1436,6,13,Yes,Yes,8917560
+160,Adajan,Adajan Gam,4,2258,4,2,No,Yes,11177100
+161,Dindoli,Dindoli Area,4,1028,9,2,Yes,Yes,3469500
+162,Adajan,Adajan Gam,4,830,1,11,No,Yes,4108500
+163,Adajan,LP Savani Road,4,2405,15,12,Yes,No,11904750
+164,Athwa,Athwa Lines,2,2363,15,5,No,No,15418575
+165,Katargam,Katargam Road,4,2126,13,3,No,No,8131950
+166,Athwa,Athwa Lines,4,622,8,7,Yes,No,4058550
+167,Varachha,Varachha Road,1,2066,14,6,No,No,8832150
+168,CityLight,City Light Road,2,698,11,13,No,Yes,4334580
+169,Pal,Pal Gam,3,1418,11,15,No,Yes,8933400
+170,Pal,Pal Gam,3,789,9,0,Yes,Yes,4970700
+171,Athwa,Athwa Lines,3,2452,15,6,Yes,Yes,15999300
+172,CityLight,City Light Road,1,1407,9,6,No,Yes,8737470
+173,CityLight,City Light Road,1,1302,6,0,Yes,Yes,8085419
+174,Piplod,Piplod Area,2,861,8,6,No,No,5036850
+175,Adajan,Adajan Gam,1,2531,9,2,No,Yes,12528450
+176,Adajan,Adajan Gam,3,1372,12,11,Yes,No,6791400
+177,Vesu,Canal Road,1,1805,1,6,No,Yes,10965375
+178,Adajan,LP Savani Road,3,1511,7,4,Yes,No,7479450
+179,Adajan,LP Savani Road,2,2267,5,0,Yes,No,11221650
+180,Piplod,Piplod Area,3,929,7,1,Yes,Yes,5434650
+181,CityLight,City Light Road,2,605,9,4,No,No,3757049
+182,Adajan,Adajan Gam,3,754,12,3,No,No,3732300
+183,Vesu,Vesu Main Road,3,1224,3,2,Yes,No,7435800
+184,Katargam,Katargam Road,2,1758,8,13,No,No,6724350
+185,Katargam,Katargam Road,4,1078,4,0,No,No,4123350
+186,Udhna,Udhna Road,1,831,3,1,Yes,Yes,2991600
+187,Athwa,Athwa Lines,3,633,6,14,No,No,4130325
+188,CityLight,City Light Road,1,1383,12,12,No,No,8588430
+189,Pal,Pal Gam,2,2598,1,12,No,No,16367399
+190,CityLight,City Light Road,1,906,15,6,No,Yes,5626260
+191,Adajan,LP Savani Road,4,1150,8,15,Yes,No,5692500
+192,Athwa,Athwa Lines,3,819,13,8,No,Yes,5343975
+193,Dindoli,Dindoli Area,3,1739,6,11,No,No,5869125
+194,Vesu,Vesu Main Road,2,1192,14,12,No,No,7241400
+195,Piplod,Piplod Area,1,2347,10,5,Yes,No,13729950
+196,Athwa,Athwa Lines,1,2244,9,11,Yes,Yes,14642100
+197,Vesu,Vesu Main Road,1,929,6,3,Yes,Yes,5643675
+198,Dindoli,Dindoli Area,4,744,4,5,No,Yes,2511000
+199,Katargam,Katargam Road,3,1122,6,11,Yes,Yes,4291650
+200,Adajan,LP Savani Road,4,1929,12,14,Yes,No,9548550
+201,Udhna,Udhna Road,1,683,10,13,No,No,2458800
+202,Adajan,LP Savani Road,1,1060,11,4,Yes,Yes,5247000
+203,Adajan,Adajan Gam,1,805,3,8,Yes,Yes,3984750
+204,Athwa,Athwa Lines,4,1266,15,5,Yes,No,8260650
+205,Udhna,Udhna Road,1,1671,15,2,No,Yes,6015600
+206,CityLight,City Light Road,1,1561,15,4,No,No,9693810
+207,Adajan,Adajan Gam,3,748,6,0,No,Yes,3702600
+208,CityLight,City Light Road,1,794,8,10,No,No,4930740
+209,Dindoli,Dindoli Area,1,2431,10,5,No,Yes,8204625
+210,Piplod,Piplod Area,3,1628,6,2,Yes,Yes,9523800
+211,Piplod,Piplod Area,2,953,11,10,No,Yes,5575050
+212,Udhna,Udhna Road,3,2032,2,8,No,No,7315200
+213,Varachha,Varachha Road,4,915,11,10,Yes,No,3911625
+214,Pal,Pal RTO,3,2556,10,7,No,Yes,16102799
+215,CityLight,City Light Road,4,1558,3,7,Yes,Yes,9675180
+216,Vesu,Canal Road,4,2379,11,4,Yes,No,14452425
+217,Piplod,Piplod Area,4,1741,14,9,Yes,Yes,10184850
+218,CityLight,City Light Road,4,2451,5,5,Yes,No,15220709
+219,Dindoli,Dindoli Area,4,919,12,10,No,No,3101625
+220,Adajan,LP Savani Road,1,756,6,5,Yes,Yes,3742200
+221,Dindoli,Dindoli Area,4,1921,13,12,Yes,No,6483375
+222,Vesu,Vesu Main Road,4,667,3,15,Yes,Yes,4052025
+223,Athwa,Athwa Lines,4,2170,15,8,Yes,Yes,14159250
+224,Pal,Pal Gam,1,1006,7,7,No,Yes,6337800
+225,Adajan,Adajan Gam,4,753,5,12,No,Yes,3727350
+226,Dindoli,Dindoli Area,2,682,12,14,No,No,2301750
+227,Varachha,Varachha Road,3,1487,15,9,No,No,6356925
+228,CityLight,City Light Road,4,2499,10,11,Yes,No,15518789
+229,Varachha,Varachha Road,3,1842,14,10,No,No,7874550
+230,Vesu,Canal Road,3,682,7,5,No,No,4143150
+231,Adajan,Adajan Gam,3,2496,6,7,Yes,No,12355200
+232,Katargam,Katargam Road,1,2153,6,3,Yes,No,8235225
+233,Udhna,Udhna Road,4,2549,1,13,Yes,Yes,9176400
+234,Dindoli,Dindoli Area,2,1698,15,11,Yes,No,5730750
+235,Piplod,Piplod Area,1,1179,2,2,Yes,Yes,6897150
+236,Dindoli,Dindoli Area,3,942,13,7,No,No,3179250
+237,Varachha,Varachha Road,3,671,7,8,Yes,No,2868525
+238,Athwa,Athwa Lines,4,1879,1,6,No,No,12260475
+239,Adajan,LP Savani Road,2,953,1,4,No,No,4717350
+240,Udhna,Udhna Road,4,1824,6,15,No,No,6566400
+241,Katargam,Katargam Road,2,1100,12,13,Yes,Yes,4207500
+242,CityLight,City Light Road,2,1588,14,14,Yes,No,9861480
+243,Udhna,Udhna Road,4,1048,3,2,No,No,3772800
+244,Varachha,Varachha Road,3,1717,5,1,No,No,7340175
+245,Varachha,Varachha Road,4,2191,12,10,Yes,No,9366525
+246,Athwa,Athwa Lines,1,1066,12,14,Yes,No,6955650
+247,Vesu,Vesu Main Road,1,2083,3,8,No,No,12654225
+248,Piplod,Piplod Area,2,1732,6,14,Yes,Yes,10132200
+249,Dindoli,Dindoli Area,2,1174,11,9,Yes,No,3962250
+250,Varachha,Varachha Road,4,2361,9,14,No,No,10093275
+251,Adajan,Adajan Gam,3,2239,5,7,Yes,No,11083050
+252,CityLight,City Light Road,2,2406,6,8,No,Yes,14941259
+253,Udhna,Udhna Road,1,1847,12,13,Yes,No,6649200
+254,Pal,Pal RTO,4,1349,11,0,Yes,Yes,8498700
+255,Pal,Pal Gam,3,1170,3,14,Yes,No,7370999
+256,Athwa,Athwa Lines,3,885,13,15,No,Yes,5774625
+257,CityLight,City Light Road,1,1832,4,2,No,Yes,11376720
+258,Vesu,Canal Road,2,631,15,5,No,No,3833325
+259,Vesu,Vesu Main Road,2,917,5,9,Yes,No,5570775
+260,CityLight,City Light Road,1,1088,3,14,No,No,6756479
+261,CityLight,City Light Road,4,935,8,11,No,Yes,5806350
+262,Varachha,Varachha Road,1,1205,5,14,No,Yes,5151375
+263,Pal,Pal RTO,4,2539,5,14,Yes,Yes,15995699
+264,Dindoli,Dindoli Area,4,2244,13,4,Yes,Yes,7573500
+265,Dindoli,Dindoli Area,3,1761,5,1,No,No,5943375
+266,Varachha,Varachha Road,2,652,15,11,Yes,Yes,2787300
+267,Katargam,Katargam Road,2,2472,4,7,Yes,No,9455400
+268,Athwa,Athwa Lines,2,1316,15,13,Yes,Yes,8586900
+269,Athwa,Athwa Lines,1,988,11,2,No,No,6446700
+270,Katargam,Katargam Road,2,2429,2,2,No,No,9290925
+271,Udhna,Udhna Road,4,915,9,12,Yes,No,3294000
+272,Vesu,Vesu Main Road,1,668,3,14,No,No,4058100
+273,Athwa,Athwa Lines,3,2366,5,11,No,Yes,15438150
+274,Athwa,Athwa Lines,1,2386,1,14,No,No,15568650
+275,Varachha,Varachha Road,2,2032,8,9,No,No,8686800
+276,Pal,Pal Gam,4,2597,1,8,Yes,No,16361099
+277,Adajan,LP Savani Road,3,831,1,5,No,No,4113450
+278,Dindoli,Dindoli Area,1,1389,2,2,Yes,No,4687875
+279,Athwa,Athwa Lines,4,1512,4,13,No,No,9865800
+280,Pal,Pal Gam,3,2033,9,11,Yes,Yes,12807900
+281,Vesu,Vesu Main Road,3,2284,12,9,Yes,No,13875300
+282,Pal,Pal RTO,4,2385,12,8,Yes,Yes,15025499
+283,Pal,Pal RTO,1,2419,5,3,No,No,15239699
+284,Adajan,LP Savani Road,4,1458,8,7,No,Yes,7217100
+285,Katargam,Katargam Road,1,1229,10,1,Yes,Yes,4700925
+286,Dindoli,Dindoli Area,2,2495,9,1,Yes,Yes,8420625
+287,Katargam,Katargam Road,1,1951,2,13,Yes,Yes,7462575
+288,Katargam,Katargam Road,2,1342,4,1,No,No,5133150
+289,Dindoli,Dindoli Area,4,1073,13,15,Yes,No,3621375
+290,CityLight,City Light Road,3,2327,15,15,No,No,14450669
+291,Udhna,Udhna Road,1,670,15,15,Yes,Yes,2412000
+292,Pal,Pal Gam,1,691,10,10,Yes,Yes,4353300
+293,Athwa,Athwa Lines,3,614,4,3,No,Yes,4006350
+294,Pal,Pal Gam,3,1060,3,0,Yes,Yes,6678000
+295,Piplod,Piplod Area,2,1769,13,3,No,Yes,10348650
+296,Dindoli,Dindoli Area,3,847,10,7,No,No,2858625
+297,Vesu,Canal Road,4,1065,12,6,Yes,No,6469875
+298,Vesu,Vesu Main Road,1,1739,9,10,Yes,No,10564425
+299,Vesu,Canal Road,3,2543,5,12,Yes,Yes,15448725
+300,Dindoli,Dindoli Area,1,1184,2,6,No,No,3996000

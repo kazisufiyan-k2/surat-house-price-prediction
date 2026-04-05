@@ -1,0 +1,41 @@
+Dataset Description:
+
+The project uses multiple structured CSV files prepared for Surat city.
+These datasets contain residential property-related attributes required
+for house price prediction.
+
+City Covered:
+Surat
+
+Datasets Included:
+• surat_house_prices.csv  
+• area_price_index.csv  
+• amenities_data.csv  
+
+Target Variable:
+SalePrice
+
+The target variable 'SalePrice' represents the final predicted selling
+price of a residential property. The datasets include both numerical
+and categorical features such as locality, total area, number of
+bedrooms, floor level, age of property, parking availability, and
+proximity to public transport.
+
+The datasets are synthetic in nature and created based on real estate
+market trends for academic and internship purposes.
+
+
+
+
+The Random Forest regression model provides reliable and stable
+predictions for house price estimation based on the available
+Surat city housing data. By analyzing multiple property-related
+features, the model is able to learn complex patterns and deliver
+accurate price predictions.
+
+The model is scalable in nature and can handle both numerical and
+categorical features effectively. This project demonstrates how
+data science and machine learning techniques can be applied to a
+real-world inspired real estate problem. The developed solution
+can be further extended to other cities or datasets by updating
+the input data without changing the core machine learning logic.

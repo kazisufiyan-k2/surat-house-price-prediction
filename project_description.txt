@@ -1,0 +1,30 @@
+﻿Project Title:
+House Price Prediction – Surat City
+
+Project Description:
+This project is a Data Science based application that focuses on
+predicting residential house prices in Surat city using machine
+learning techniques. The system analyzes real estate attributes
+available in the dataset such as property area (locality),
+total built-up area in square feet, number of bedrooms (BHK),
+floor level, age of the property, parking availability, and
+proximity to metro or public transport.
+
+The objective of this data science project is to develop a
+data-driven solution that can estimate house prices accurately
+by learning patterns from structured housing data. The project
+uses synthetic Surat city datasets created based on real estate
+market trends for academic and internship purposes.
+
+The project includes data loading, basic data cleaning,
+exploratory data analysis (EDA) through graphical visualization,
+and encoding of categorical features before model training.
+Structured CSV datasets are used, and the Random Forest regression
+algorithm is applied to build a reliable and efficient prediction
+model.
+
+This project demonstrates the complete data science workflow,
+from dataset understanding and analysis to predictive modeling.
+The developed model is generalized in nature and can be extended
+to other cities by replacing the dataset without changing the
+core machine learning logic.

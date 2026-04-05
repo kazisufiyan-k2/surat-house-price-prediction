@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SuratEstimate — House Price Predictor</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=21">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="logo">🏠 Surat<span>Estimate</span></div>
+  <div class="live-badge"><span class="dot"></span> ML Model Live</div>
+</div>
+
+<div class="hero">
+  <div class="hero-left">
+    <div class="hero-tag">Data Science Project</div>
+    <h1>Predict House Prices<br>in <span>Surat City</span></h1>
+    <p>Enter property details and get an instant AI-powered price estimate trained on real Surat housing data.</p>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-num">8</div><div class="stat-label">Features</div></div>
+      <div class="stat"><div class="stat-num">10</div><div class="stat-label">Areas</div></div>
+      <div class="stat"><div class="stat-num">ML</div><div class="stat-label">Powered</div></div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <h4>How to Use</h4>
+    <div class="how-item"><div class="how-num">1</div><div class="how-text">Select your Area — Locality will update automatically</div></div>
+    <div class="how-item"><div class="how-num">2</div><div class="how-text">Enter BHK, SqFt, Floor and Property Age</div></div>
+    <div class="how-item"><div class="how-num">3</div><div class="how-text">Select Parking and Metro availability</div></div>
+    <div class="how-item"><div class="how-num">4</div><div class="how-text">Click Get Price Estimate to see the result</div></div>
+  </div>
+</div>
+
+<div class="main">
+
+  <div class="form-card">
+    <div class="form-card-top">
+      <h3>📋 Enter Property Details</h3>
+      <p>All fields required for accurate prediction</p>
+    </div>
+    <div class="form-body">
+      <form action="/predict" method="POST">
+
+        <div class="sec-label">📍 Location</div>
+        <div class="grid2">
+          <div class="field">
+            <label>Area</label>
+            <select name="area" id="area" required onchange="updateLocality()">
+              <option value="" disabled selected>Select area...</option>
+              {% for a in areas %}
+              <option value="{{ a }}" {% if selected_area == a %}selected{% endif %}>{{ a }}</option>
+              {% endfor %}
+            </select>
+          </div>
+          <div class="field">
+            <label>Locality</label>
+            <select name="locality" id="locality" required>
+              <option value="" disabled selected>Select area first...</option>
+              {% if selected_locality %}
+              <option value="{{ selected_locality }}" selected>{{ selected_locality }}</option>
+              {% endif %}
+            </select>
+          </div>
+        </div>
+
+        <div class="sec-label">🏗 Property Info</div>
+        <div class="grid2">
+          <div class="field">
+            <label>BHK</label>
+            <input type="number" name="bhk" placeholder="e.g. 3" min="1" max="10" required>
+          </div>
+          <div class="field">
+            <label>Total SqFt</label>
+            <input type="number" name="sqft" placeholder="e.g. 1200" min="0" step="any" required>
+          </div>
+          <div class="field">
+            <label>Floor Number</label>
+            <input type="number" name="floor" placeholder="e.g. 5" min="0" required>
+          </div>
+          <div class="field">
+            <label>Property Age (years)</label>
+            <input type="number" name="age" placeholder="e.g. 4" min="0" required>
+          </div>
+        </div>
+
+        <div class="sec-label">✨ Amenities</div>
+        <div class="grid2">
+          <div class="field">
+            <label>Parking</label>
+            <select name="parking" required>
+              <option value="" disabled selected>Select...</option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Near Metro</label>
+            <select name="near_metro" required>
+              <option value="" disabled selected>Select...</option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+            </select>
+          </div>
+        </div>
+
+        {% if error_text %}
+        <div class="error-box">{{ error_text }}</div>
+        {% endif %}
+
+        <button type="submit" class="predict-btn">🔍 Get Price Estimate</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="right-panel">
+    {% if prediction_text %}
+    <div class="result-card">
+      <div class="result-banner">
+        <div class="result-tag">Estimated Market Price</div>
+        <div class="result-price">{{ prediction_text }}</div>
+        <div class="result-lakhs">{{ price_lakhs }}</div>
+      </div>
+      <div class="result-body">
+        <div class="chips">
+          <span class="chip">🏙 {{ selected_area }}</span>
+          <span class="chip">📍 {{ selected_locality }}</span>
+          <span class="chip">🤖 ML Predicted</span>
+        </div>
+        {% if graph %}
+        <div class="chart-label">Feature Breakdown</div>
+        <img src="{{ graph }}" class="chart-img" alt="Chart"/>
+        {% endif %}
+        <a href="/" class="reset-btn">🔄 Predict Another</a>
+      </div>
+    </div>
+    {% else %}
+    <div class="empty-card">
+      <div class="empty-icon">🏡</div>
+      <h4>Your Estimate Appears Here</h4>
+      <p>Fill the form and click<br><strong>Get Price Estimate</strong></p>
+    </div>
+    {% endif %}
+
+    <div class="info-card">
+      <h4>📊 Model Info</h4>
+      <div class="info-row"><span class="info-key">Algorithm</span><span class="info-val">Random Forest</span></div>
+      <div class="info-row"><span class="info-key">Features</span><span class="info-val">8 Inputs</span></div>
+      <div class="info-row"><span class="info-key">City</span><span class="info-val">Surat, GJ</span></div>
+      <div class="info-row"><span class="info-key">Framework</span><span class="info-val">Flask + joblib</span></div>
+      <div class="info-row"><span class="info-key">Output</span><span class="info-val">Price in ₹</span></div>
+    </div>
+  </div>
+
+</div>
+
+<footer class="footer">
+  Built By <span>Sufiyan kazi </span> &nbsp;·&nbsp; Surat, Gujarat &nbsp;·&nbsp; 2026
+</footer>
+
+<!-- Area → Locality mapping -->
+<script>
+const areaLocality = {
+  "Adajan"    : ["Adajan Gam", "LP Savani Road"],
+  "Athwa"     : ["Athwa Lines"],
+  "CityLight" : ["City Light Road"],
+  "Dindoli"   : ["Dindoli Area"],
+  "Katargam"  : ["Katargam Road"],
+  "Pal"       : ["Pal Gam", "Pal RTO"],
+  "Piplod"    : ["Piplod Area"],
+  "Udhna"     : ["Udhna Road"],
+  "Varachha"  : ["Varachha Road"],
+  "Vesu"      : ["Canal Road", "Vesu Main Road"]
+};
+
+function updateLocality() {
+  const area = document.getElementById("area").value;
+  const localitySelect = document.getElementById("locality");
+  localitySelect.innerHTML = "";
+
+  if (area && areaLocality[area]) {
+    const defaultOpt = document.createElement("option");
+    defaultOpt.value = ""; defaultOpt.disabled = true; defaultOpt.selected = true;
+    defaultOpt.text = "Select locality...";
+    localitySelect.appendChild(defaultOpt);
+
+    areaLocality[area].forEach(loc => {
+      const opt = document.createElement("option");
+      opt.value = loc; opt.text = loc;
+      localitySelect.appendChild(opt);
+    });
+  } else {
+    const opt = document.createElement("option");
+    opt.value = ""; opt.disabled = true; opt.selected = true;
+    opt.text = "Select area first...";
+    localitySelect.appendChild(opt);
+  }
+}
+
+// Page load pe agar area already selected ho
+window.onload = function() {
+  const area = document.getElementById("area").value;
+  if (area) updateLocality();
+};
+</script>
+
+</body>
+</html>
