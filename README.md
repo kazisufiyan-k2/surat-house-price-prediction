@@ -31,10 +31,4 @@ Main files:
 - amenities_data.csv
 - area_price_index.csv
 
----
 
-## ⚙️ How to Run
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
